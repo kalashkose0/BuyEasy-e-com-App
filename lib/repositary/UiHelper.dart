@@ -12,10 +12,9 @@ class UiHelper {
   ) {
     return Container(
       height: 67,
-      width: 353,
+      width: 335,
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(14),
-          color: const Color(0XFFF3F2F2)),
+          borderRadius: BorderRadius.circular(14), color: Colors.white),
       child: Center(
         child: TextField(
           controller: controller,
@@ -24,11 +23,12 @@ class UiHelper {
           obscuringCharacter: "*",
           decoration: InputDecoration(
               hintText: hintext,
-              hintStyle:
-                  const TextStyle(fontSize: 12, color: Color(0XFF181725)),
+              hintStyle: const TextStyle(
+                  fontSize: 16, color: Color.fromARGB(255, 152, 151, 155)),
               prefixIcon: Icon(
+                size: 40,
                 icon,
-                color: const Color(0XFF181725),
+                color: Color.fromARGB(255, 152, 151, 155),
               ),
               border: InputBorder.none),
         ),
