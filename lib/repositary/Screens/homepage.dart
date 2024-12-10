@@ -40,13 +40,13 @@ class _homePageState extends State<homePage> {
                             fontSize: 16.0,
                           ),
                         ),
-                        Text(
-                          'Kalash k',
-                          style: TextStyle(
-                            fontSize: 18.0,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
+                        // Text(
+                        //   'Kalash k',
+                        //   style: TextStyle(
+                        //     fontSize: 18.0,
+                        //     fontWeight: FontWeight.bold,
+                        //   ),
+                        // ),
                       ],
                     ),
                     trailing: Icon(Icons.notifications),
